@@ -1,3 +1,10 @@
+# My Pattern Project
+
+Here’s how it looks in action 👇
+
+![Demo](assets/preview.gif)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
