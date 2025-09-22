@@ -2,7 +2,7 @@
 
 Here’s how it looks in action 👇
 
-![Demo](assets/preview.gif)
+![Demo](https://github.com/PayalOjha888/Bouncy-Pattern/blob/main/src/assets/Preview.gif?raw=true)
 
 
 # React + Vite
