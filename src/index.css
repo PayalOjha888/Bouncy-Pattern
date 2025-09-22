@@ -1,0 +1,75 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Control panel */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.controls label {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.controls input[type="number"],
+.controls input[type="range"] {
+  padding: 3px 6px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #222;
+  color: #fff;
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Grid cells */
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #444;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+/* Grid wrapper */
+.wave-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
